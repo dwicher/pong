@@ -2,7 +2,7 @@
 float ball_x;
 float ball_y;
 float ball_dir = 1; // Direction in x 
-float ball_size = 7;  // Radius of ball
+float ball_size = 20;  // Radius of ball
 float dy = 2;  // Change in y
 
 // Global variables for the paddle
@@ -17,7 +17,7 @@ float highscore = 0;
 float score = 0;
 
 void setup() {
-    size(1500, 850);
+    size(800, 800);
     rectMode(CENTER_RADIUS);
     ellipseMode(CENTER_RADIUS);
     noStroke();

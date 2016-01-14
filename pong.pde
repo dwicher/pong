@@ -14,7 +14,7 @@ var dist_wall = 8;
 // Adding total hits here...
 //float total = 0;
 float highscore = 0;
-float score = donovan;
+float score = 999999999999999999999999999999999999999999999999999999999999999999;
 
 void setup() {
     size(800, 800);

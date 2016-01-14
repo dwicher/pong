@@ -17,7 +17,7 @@ float highscore = 0;
 float score = 0;
 
 void setup() {
-    size(600, 400);
+    size(600, 800);
     rectMode(CENTER_RADIUS);
     ellipseMode(CENTER_RADIUS);
     noStroke();
